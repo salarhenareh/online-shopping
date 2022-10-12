@@ -1,0 +1,136 @@
+.mainNavigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 5rem;
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid #e5e7eb96;
+    box-shadow: 0px 4px 10px #e5e7eb96;
+    font-size: 14px;
+    color: #222222;
+    z-index: 2;
+    /* z-index for homepage is 1  */
+    /* max-width: 1170px; */
+}
+
+.mainNavigation a {
+    color: #222222;
+}
+
+.firstNavigation, .secondNavigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 5px 15px;
+}
+
+.secondNavigation {
+    padding: 0px 20px 10px 20px !important;
+    justify-content: space-evenly !important;
+}
+
+.logo {
+    color: #F1641E !important;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.searchBtn {
+    font-size: 13.5px;
+    height: 35px;
+    width: 30px;
+    background-color: #F4F4F4;
+    border-width: 2px;
+    border-color: #22222280;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 96px;
+    border-bottom-right-radius: 96px;
+    cursor: pointer;
+}
+
+.searchInput {
+    width: 30rem;
+    height: 35px;
+    padding: 6px 8px;
+    background-color: #F4F4F4;
+    border-width: 2px;
+    border-color: #22222280;
+    border-right: none;
+    border-top-left-radius: 96px;
+    border-bottom-left-radius: 96px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  
+}
+
+
+
+.searchBtn, .searchForm :focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+.basketIcon, .favoriteIcon, .profileIcon, .countryIcon {
+    font-size: 13px;
+    height: 35px;
+    width: 30px;
+}
+
+.cartItemNumber {
+    position: absolute;
+    right: -11px;
+    top: -2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #F1641E;
+    color: #fff;
+    font-size: 14px;
+}
+
+.favoriteItemNumber {
+    position: absolute;
+    right: 81px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #F1641E;
+    color: #fff;
+    font-size: 14px;
+}
+
+.cartLi {
+    position: relative;
+}
+
+a {
+    cursor: pointer;
+}
+
+
+
+.nav-link {
+    color: #fff !important;
+    background-color: #7e22ce;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.countryIcon:hover {
+    fill: red !important;
+}

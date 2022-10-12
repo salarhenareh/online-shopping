@@ -1,0 +1,39 @@
+.formClass:focus {
+    outline: none;
+    border: 3px solid #7e22ce !important;
+}
+
+label {
+    display: flex;
+    margin-bottom: 5px;
+    font-weight: 800;
+}
+
+input+label {
+    font-weight: bold;
+    display: inline-flex;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+input[id="name"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+select {
+    width: 400px;
+    padding: 6px 12px;
+    display: block;
+    background-color: #fff;
+    color: #444;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.formControl {
+    margin-bottom: 20px;
+}
+
+.error {
+    color: red;
+}

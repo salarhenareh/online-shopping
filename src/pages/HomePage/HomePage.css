@@ -1,0 +1,125 @@
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #fafaf900;
+    z-index: 1;
+    /* z-index for navigation is 2  */
+
+}
+
+.productList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-column-gap: 5rem;
+    grid-row-gap: 5rem;
+    border-radius: 5px;
+    max-width: 1170px;
+    width: 90vw;
+    background-color: #fafaf900;
+    margin-top: 25px;
+}
+
+.product {
+    background-color: #d1d5db67;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 8px 8px 8px #e5e7eb96;
+}
+
+.productImg img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    height: auto;
+
+}
+
+.productImg {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.productDesc {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.addCartBtn {
+    border: none;
+    outline: none;
+    padding: 6px 12px;
+    background-color: #7e22ce;
+    color: #ffff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.inCartBtn {
+    border: none;
+    outline: none;
+    padding: 6px 12px;
+    background-color: #22c55e;
+    color: #ffff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.realPrice {
+    color: #22c55e;
+    display: flex;
+}
+
+.realPrice :first-child {
+    text-decoration-line: line-through;
+}
+
+.Toastify__toast--success {
+    margin-top: 60px;
+}
+
+.favoriteContainer {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: 1px solid rgb(158, 158, 158);
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    cursor: pointer;
+    height: 2.25rem;
+    width: 2.25rem;
+}
+
+
+.favoriteButton {
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.addFavorite {
+    height: 100%;
+    width: 100%;
+    color: #e2e8f0;
+   
+}
+
+.addFavorite:hover{
+    fill: red;
+}
+
+.inFavorite{
+    height: 90%;
+    width: 90%;
+    fill: red;
+}

@@ -1,0 +1,26 @@
+.formContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    padding: 6px 12px;
+    background-color: #fff;
+    color: #7e22ce;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .primary{
+    background-color:#7e22ce ;
+    color: #fff;
+  }
+  
+  button:disabled{
+    cursor: not-allowed;
+    background-color: #ccc;
+    color: #444;
+  }
